@@ -9,6 +9,8 @@ GPIO.setup(10, GPIO.IN)
 def checkInput():
     if(GPIO.input(10)):
         print("Ready to ROLL!")
+    else:
+        print("Waiting for buttonpress")
 
 def playSong():
     os.system("play Sang.wav")  
