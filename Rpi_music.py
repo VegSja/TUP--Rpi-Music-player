@@ -1,1 +1,2 @@
-print("___Raspberry pi music player")
+from playsound import playsound
+playsound("Sang.wav")
