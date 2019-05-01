@@ -11,6 +11,7 @@ def checkInput():
         print("Ready to ROLL!")
     else:
         print("Waiting for buttonpress")
+        os.system("clear")
 
 def playSong():
     os.system("play Sang.wav")  
