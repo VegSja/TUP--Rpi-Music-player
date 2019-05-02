@@ -9,8 +9,7 @@ GPIO.setup(4, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 def checkInput():
     print(GPIO.input(4))	
     if(GPIO.input(4)):
-        print("Ready to ROLL!")
-	playSong()
+            playSong()
     else:
        print("Waiting for buttonpress")
        os.system("clear")
