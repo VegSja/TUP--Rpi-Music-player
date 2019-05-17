@@ -13,10 +13,9 @@ def checkInput():
     else:
        print("Waiting for buttonpress")
        os.system("clear")
-
+    time.sleep(1)
 def playSong():
-    os.system("play Sang.wav")  
-    time.sleep(7)
+    os.system("play /etc/Musicplayer/Sang.wav")  
     os.system("echo 'finish'")
 
 while True:
